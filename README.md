@@ -66,6 +66,13 @@ After you've created the `config.json` file, start your server or run `node src/
 Please wait an hour for your slash commands to register. If they never register, please reinvite your bot with the correct invite.
 
 > **Example of a correct invite:** `https://discord.com/api/oauth2/authorize?client_id=<clientid>&permissions=0&scope=bot%20applications.commands`.
-A more in-depth explanation of invites can be found [here](https://discordjs.guide/preparations/adding-your-bot-to-servers.html#bot-invite-links).
 
-# Commands
+*A more in-depth explanation of invites can be found [here](https://discordjs.guide/preparations/adding-your-bot-to-servers.html#bot-invite-links).*
+
+# Your all set!
+
+If you run into any issues, create an issue here: https://github.com/jacobhumston/Pterodactyl-Server-Manager/issues
+
+If you did not know already, type `/` in chat to view a list of commands.
+
+***Happy server managing!***
