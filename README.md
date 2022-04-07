@@ -23,9 +23,19 @@ To be able to use PSM, you have to create a `config.json` file in the `src` dire
     "token": "discord bot token",
     "extra": {
         "log-webhook-url": "discord webhook url",
-        "ignored-servers": ["pterodactyl server id"],
+        "ignored-servers": ["pterodactyl server"],
         "interaction-time-limit": 10000
     }
+}
+```
+
+Or: (with no extra values)
+
+```json
+{
+    "api-key": "pterodactyl api key",
+    "users": ["discord user id"],
+    "token": "discord bot token"
 }
 ```
 
@@ -51,7 +61,7 @@ All extra values are completely optional.
 
 ## Starting The Bot
 
-After you've created the `config.json` file, please start your server or run `node src/login.js` and your bot will come online.
+After you've created the `config.json` file, start your server or run `node src/login.js` and your bot will be ready to use.
 
 Please wait an hour for your slash commands to register. If they never register, please reinvite your bot with the correct invite.
 
