@@ -1,6 +1,6 @@
 # Pterodactyl-Server-Manager
 
-Pterdoactyle Server Manager (PSM) is a free to use Discord Bot, which allows you to manage your servers from a Discord Bot. ***Reminder:** PSM requires an API key to work.*
+Pterdoactyle Server Manager (PSM) is a free-to-use Discord Bot, which allows you to manage your servers from a Discord Bot. ***Reminder:** PSM requires an API key to work.*
 
 *If you don't know what Pterdoactyle is, please refer to https://pterodactyl.io/.*
 
@@ -69,9 +69,9 @@ Please wait an hour for your slash commands to register. If they never register,
 
 *A more in-depth explanation of invites can be found [here](https://discordjs.guide/preparations/adding-your-bot-to-servers.html#bot-invite-links).*
 
-# Your all set!
+# You're all set!
 
-If you run into any issues, create an issue here: https://github.com/jacobhumston/Pterodactyl-Server-Manager/issues
+If you run into any issues or have any questions, create an issue here: https://github.com/jacobhumston/Pterodactyl-Server-Manager/issues
 
 If you did not know already, type `/` in chat to view a list of commands.
 
