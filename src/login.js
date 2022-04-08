@@ -3,9 +3,9 @@ const Emojis = require("./emojis.json");
 const Config = require("./config.json");
 
 const Client = new Discord.Client({
-    intents: ["GUILDS", "GUILD_MESSAGES", "GUILD_MEMBERS"],
+    intents: ["GUILD_MESSAGES", "GUILDS"],
 });
 
-Client.on("messageCreate", async function (Message) {});
-
-Client.login(Config.token);
+(async function () {
+    await Client.login(Config.token);
+})();
