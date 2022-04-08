@@ -48,7 +48,7 @@ Or: (with no extra values)
 | api-key   | Your Pterodactyl API key.                                                                        |
 | users     | An array of user IDs of who can use the bot's commands. **Only add yourself or trusted people.** |
 | token     | Your Discord Bot token.                                                                          |
-| panel-url | Base link to the pterodactyl. Example: `https://panel.pterodactyl`.                              |
+| panel-url | Base link to the Pterodactyl panel. Example: `https://panel.pterodactyl`                         |
 
 > **WARNING!** Always keep your tokens and API keys safe. Do not share them with anyone you do not trust. **\*Anyone** who has these tokens and/or API keys can do whatever **you** can.\*
 
