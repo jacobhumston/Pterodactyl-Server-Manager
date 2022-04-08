@@ -1,6 +1,6 @@
 # Pterodactyl-Server-Manager
 
-Pterdoactyle Server Manager (PSM) is a free-to-use Discord Bot, which allows you to manage your servers from a Discord Bot. **\*Reminder:** PSM requires an API key to work.\*
+Pterdoactyle Server Manager (PSM) is a free-to-use Discord Bot, which allows you to manage your servers from a Discord Bot. **Reminder:** PSM requires an API key to work.
 
 _If you don't know what Pterdoactyle is, please refer to https://pterodactyl.io/._
 
@@ -43,24 +43,24 @@ Or: (with no extra values)
 
 ## Value Explanations
 
-| Value     | Explanation                                                                                      |
-| --------- | ------------------------------------------------------------------------------------------------ |
-| api-key   | Your Pterodactyl API key.                                                                        |
-| users     | An array of user IDs of who can use the bot's commands. **Only add yourself or trusted people.** |
-| token     | Your Discord Bot token.                                                                          |
-| panel-url | Base link to the Pterodactyl panel. Example: `https://panel.pterodactyl`                         |
+| Value | Explanation |
+| --- | --- |
+| api-key | Your Pterodactyl API key. |
+| users | An array of user IDs of who can use the bot's commands. **Only add yourself or trusted people.** |
+| token | Your Discord Bot token. |
+| panel-url | Base link to the Pterodactyl panel. Example: `https://panel.pterodactyl` |
 
-> **WARNING!** Always keep your tokens and API keys safe. Do not share them with anyone you do not trust. **\*Anyone** who has these tokens and/or API keys can do whatever **you** can.\*
+> **WARNING!** Always keep your tokens and API keys safe. Do not share them with anyone you do not trust. **Anyone** who has these tokens and/or API keys can do whatever **you** can.
 
 ## Extra Values Explanations
 
 All extra values are completely optional.
 
-| Value                  | Explanation                                                                                                                                                      |
-| ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| log-webhook-url        | A Discord webhook URL to log events such as when someone runs a command.                                                                                         |
-| ignored-servers        | All Pterodactyl servers listed here will not be listed as options when managing your servers through the bot. Supports the server's name, short ID, and full ID. |
-| interaction-time-limit | How long before the bot will no longer wait for interactions in milliseconds. (Such as buttons.) Default is 10 minutes/10000 milliseconds.                       |
+| Value | Explanation |
+| --- | --- |
+| log-webhook-url | A Discord webhook URL to log events such as when someone runs a command. |
+| ignored-servers | All Pterodactyl servers listed here will not be listed as options when managing your servers through the bot. Supports the server's name, short ID, and full ID. |
+| interaction-time-limit | How long before the bot will no longer wait for interactions in milliseconds. (Such as buttons.) Default is 10 minutes/10000 milliseconds. |
 
 ## Starting The Bot
 
