@@ -16,11 +16,11 @@ exports.Run = async function (Client, Interaction) {
         async function ChooseServer() {
             const Servers = await Requests.GetServers();
             await Interaction.editReply({
-                content: Servers.length,
+                content: toString(Servers.length),
             });
         }
 
-        
+
         await ChooseServer();
     } catch (error) {
         await Interaction.editReply({ content: error });
