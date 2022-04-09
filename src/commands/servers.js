@@ -12,16 +12,17 @@ const Config = require("../config.json");
 const Requests = require("../requests.js");
 
 exports.Run = async function (Client, Interaction) {
-    async function ChooseServer() {
-        try {
+    try {
+        async function ChooseServer() {
             const Servers = await Requests.GetServers();
             await Interaction.editReply({
                 content: Servers.length,
             });
-        } catch (error) {
-            await Interaction.editReply({ content: error });
         }
-    }
 
-    await ChooseServer();
+        
+        await ChooseServer();
+    } catch (error) {
+        await Interaction.editReply({ content: error });
+    }
 };
