@@ -18,9 +18,9 @@ exports.Run = async function (Client, Interaction) {
             await Interaction.editReply({
                 content: `Server size is ${Servers.length}`,
             });
+            
         }
 
-        
         await ChooseServer();
     } catch (error) {
         await Interaction.editReply({ content: error });

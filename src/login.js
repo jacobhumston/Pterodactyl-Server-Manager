@@ -19,6 +19,12 @@ Client.on("ready", async function () {
 Client.on("interactionCreate", async function (Interaction) {
     if (!Interaction.isApplicationCommand()) return;
     await Interaction.deferReply({ ephemeral: true });
+    if (Config["users"].includes(Interaction.user.id) == false) {
+        await Interaction.editReply("You are not allowed to use PSM commands.").catch(async (error) => {
+            return;
+        });
+        return;
+    }
     for (const CommandFile of FileSystem.readdirSync("./src/commands")) {
         const Command = require("./commands/" + CommandFile);
         if (Interaction.commandName == Command.Data.name) {

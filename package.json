@@ -1,6 +1,9 @@
 {
-  "dependencies": {
-    "discord.js": "^13.6.0",
-    "node-fetch": "^3.2.3"
-  }
+    "dependencies": {
+        "discord.js": "^13.6.0",
+        "node-fetch": "^3.2.3"
+    },
+    "scripts": {
+        "start": "node src/login.js"
+    }
 }
