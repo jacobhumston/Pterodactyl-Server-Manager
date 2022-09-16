@@ -1,4 +1,4 @@
-# THIS IS NOT FINSIHED AND DOES NOT ACTUALLY WORK...
+# THIS IS NOT FINISHED AND DOES NOT ACTUALLY WORK... Project may be continued in the future.
 
 # Pterodactyl-Server-Manager
 
