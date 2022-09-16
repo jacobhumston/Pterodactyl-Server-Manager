@@ -1,3 +1,5 @@
+# THIS IS NOT FINSIHED AND DOES NOT ACTUALLY WORK...
+
 # Pterodactyl-Server-Manager
 
 Pterdoactyle Server Manager (PSM) is a free-to-use Discord Bot, which allows you to manage your servers from a Discord Bot. **Reminder:** PSM requires an API key to work.
